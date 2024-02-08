@@ -1,0 +1,90 @@
+*:before,
+*:after
+{
+box-sizing: border-box;
+}
+*
+{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   box-sizing: border-box;
+
+}
+body
+{
+   width: 100%;
+   position: relative;
+   min-height: 100vh;
+   background-color: aquamarine;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 1rem;
+}
+.container
+{
+   width: calc(768px- 1rem);
+   background: #0f2229;
+   color: #fff;
+   padding: 19px;
+   border-radius: 15px;
+}
+.container h2
+{
+   font-weight: 400;
+   font-size: 1.5rem;
+   text-align: center;
+
+}
+.container form
+{
+   position: relative;
+   width: 100%;
+
+}
+.container .form input
+{
+   width: 100%;
+   background: #1f381f;
+   border: none;
+   outline: none;
+   padding: 15px 145px 15px 12px;
+   border-radius: 10px;
+   color: aliceblue;
+   font-size: 1.3rem;
+
+}
+.container .form button
+{
+position: absolute;
+padding: 12px;
+border-radius: 10px;
+font-size: 1.2rem;
+color: aliceblue;
+border: none;
+outline: none;
+background: #0f2229;
+right: 3px;
+top: 3px;
+cursor: pointer;
+
+}
+
+.container .namebox
+
+{
+position: relative;
+background:blue;
+border-radius: 10px;
+padding: 12px;
+
+}
+.container .namebox span
+{
+   font-size: 1.3rem;
+   font-weight: 300;
+   text-transform: capitalize;
+   letter-spacing: .3px;
+}
